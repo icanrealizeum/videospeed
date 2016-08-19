@@ -9,7 +9,7 @@ var tcDefaults = {
   rewindKeyCode: 90,    // default: Z
   advanceKeyCode: 88,   // default: X
   displayKeyCode: 86,   // default: V
-  rememberSpeed: false, // default: false
+  rememberSpeed: true, // default: true
   blacklist: `
   `.replace(/^\s+|\s+$/gm,'')
   /*
