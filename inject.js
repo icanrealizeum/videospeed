@@ -13,11 +13,13 @@ chrome.extension.sendMessage({}, function(response) {
       displayKeyCode: 86,   // default: V
       rememberSpeed: false, // default: false
       blacklist: `
+      `.replace(/^\s+|\s+$/gm,'')
+      /*
         www.instagram.com
         twitter.com
         vine.co
         imgur.com
-      `.replace(/^\s+|\s+$/gm,'')
+       */
     }
   };
 

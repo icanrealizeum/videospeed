@@ -22,7 +22,7 @@
   },
   "content_scripts": [{
       "all_frames": true,
-      "matches": [ "https://www.youtube.com/*" ],
+      "matches": [ "https://www.youtube.com/*", "https://www.instagram.com/*", "https://twitter.com/*" ],
       "exclude_matches": [
         "https://plus.google.com/hangouts/*",
         "https://hangouts.google.com/hangouts/*",
